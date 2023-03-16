@@ -5,7 +5,7 @@ const lightbox = new SimpleLightbox('.gallery a', {
 
 // add this script
 (() => {
-  const images = document.querySelectorAll('.uk-inline');
+  const images = document.querySelectorAll('.gallery-link');
   images.forEach(el => {
     const img = el.querySelector('img');
     el.href = img.src;
