@@ -1,0 +1,17 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+
+/* utils */
+@import url('./utils/variebles.css');
+@import url('./utils/visually-hidden.css');
+/* base */
+@import url('./base/common.css');
+@import url('./base/reset.css');
+/* components */
+@import url('./components/container.css');
+/* layout */
+@import url('./layout/cases.css');

@@ -1,0 +1,50 @@
+.cases {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  text-align: center;
+}
+
+.cases-container {
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+.cases-description {
+  margin-bottom: 15px;
+
+  font-size: 20px;
+  line-height: 1.65;
+
+  color: var(--main-text-color);
+}
+
+.cases-title {
+  margin-bottom: 34px;
+
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+
+  color: var(--main-text-color);
+}
+
+.cases-text {
+  margin-bottom: 39px;
+
+  line-height: 1.56;
+
+  color: var(--main-text-color);
+}
+
+.cases-list {
+  display: flex;
+  gap: 8px;
+  row-gap: 7px;
+  flex-wrap: wrap;
+}
+
+.cases-item {
+  /* flex-basis: calc((100% - 16px) / 4); */
+  /* чомусь не працює (не зміг зрозуміти чому) - дає три картинки*/
+}
