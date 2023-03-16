@@ -44,7 +44,59 @@
   flex-wrap: wrap;
 }
 
-.cases-item {
-  /* flex-basis: calc((100% - 16px) / 4); */
-  /* чомусь не працює (не зміг зрозуміти чому) - дає три картинки*/
+.order-1 {
+  order: 1;
+}
+.order-2 {
+  order: 3;
+}
+.order-3 {
+  order: 5;
+}
+.order-4 {
+  order: 7;
+}
+.order-5 {
+  order: 2;
+}
+.order-6 {
+  order: 4;
+}
+.order-7 {
+  order: 6;
+}
+.order-8 {
+  order: 8;
+}
+
+/* Tablet styles */
+@media screen and (min-width: 768px) {
+  .cases-item {
+    flex-basis: calc((100% - 24px) / 4);
+  }
+
+  .order-1 {
+    order: 1;
+  }
+  .order-2 {
+    order: 2;
+  }
+  .order-3 {
+    order: 3;
+  }
+  .order-4 {
+    order: 4;
+  }
+  .order-5 {
+    order: 5;
+  }
+  .order-6 {
+    order: 6;
+  }
+  .order-7 {
+    order: 7;
+  }
+  .order-8 {
+    order: 8;
+  }
 }
